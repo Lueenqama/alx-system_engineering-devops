@@ -1,0 +1,2 @@
+#!/bin/bash
+sed 's/^./&\t/' | tr -d '\n' | cut -f2- | tr '\t' '\n'
